@@ -9,21 +9,31 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+     
      <div id= "homehead">
        <header=id"top">
-        <h1>Welcome to Home Away From Home</h1>
-      		<nav id="mainnav">
-      		  	<ul>	
-      		  		<li class="active"><a href="index.html">Home</a></li>
+       <nav class="top-bar" data-topbar> 
+       <ul class="title-area"> <li class="name"> 
+       <h1><a href="#">Home Away From Home</a></h1>
+        </li> <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li> 
+        </ul> <section class="top-bar-section"> <!-- Right Nav Section --> 
+        <ul class="right">
+         <li class="active"> <a href="#">Right Button Active</a></li> 
+         <li class="has-dropdown"> <a href="#">Right Button Dropdown</a> 
+         <ul class="dropdown"> <li><a href="#">First link in dropdown</a></li> 
+         </ul> </li> </ul> <!-- Left Nav Section --> 
+         <ul class="left"> <li><a href="#">Left Nav Button</a></li> 
+         <li class="active"><a href="index.html">Home</a></li>
 					<li><a href="search.html#">Search</a></li>
 					<li><a href="result.html">Result</a></li>
 					<li><a href="favorite.html">Favorites</a></li>
 					<li><a href="login.html">Login</a></li>
 					<li><a href="signup.html">Sign Up</a></li>
-				</ul>
-			</nav>
+
+         </ul> </section> 
+         			
        </header=id"top">
-		<div class="homeawayphoto-container">
+		<!--<div class="homeawayphoto-container">
 		<ul data-orbit class="Homeaway photos-container">		
 				<ul class="takealook-orbit" data-orbit> 
 					<li> <img src="img/slida.jpg" alt="slide 1" /> 
@@ -33,16 +43,31 @@
 					<li><img src="img/page1_img1.jpg" alt="slide 3" /> 
 						 <div class="orbit-caption"> A tour perhaps. </div></li>	 
 				</ul>
-				</div>
+				</div>-->
+				<div class="orbit-container">
+					 <ul data-orbit class="example-orbit orbit-slides-container">
+					    <li>
+					      <img src="img/slida.jpg" alt="slide 1" />
+					      	<div class="orbit-caption">Caption One.</div>
+					    </li>
+					    <li class="active">
+					      <img src="img/big1.jpg" alt="slide 2" />
+					      	<div class="orbit-caption">Caption Two.</div>
+					    </li>
+					    <li>
+					      <img src="img/page1_img1.jpg" alt="slide 3" />
+					      	<div class="orbit-caption">Caption Three.</div>
+						  </li>
+					</ul>
 				<article>
-				<h2> Be Where It&rsquo;s At</h2>
-					<p> Home Away From Home will find the place of your dreams.  Whether it is for 							vacation or a temporary months away stay for a rejuvenation of life.</p>
+					<h2> Be Where It&rsquo;s At</h2>
+						<p> Home Away From Home will find the place of your dreams.  Whether it is for vacation or a temporary months away stay for a rejuvenation of life.</p>
 				</article>
 				<aside>
 					<ul>
-					<li><a href="Sightseeing.html">Sightseeing</a></li>
-					<li><li><a href="Eating.html">Eating</a></li></li>
-					<li><li><a href="Whathappening.html">Happenings</a></li></li>
+						<li><a href="Sightseeing.html">Sightseeing</a></li>
+						<li><li><a href="Eating.html">Eating</a></li></li>
+						<li><li><a href="Whathappening.html">Happenings</a></li></li>
 					</ul>
 				</aside>
 				<footer>&copy; 2014 Home Away From Home</footer>
